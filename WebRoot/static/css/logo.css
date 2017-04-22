@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+#logo {
+	text-align: center;
+	position: relative;
+	margin: -14px auto;
+	height: 98px;
+	line-height: 98px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #000;
+	text-shadow: 0px 3px 0px #ffffff;
+}
+
+#logo h1 {
+	font-size: 3.25em;
+	font-family: Lobster, cursive;
+}

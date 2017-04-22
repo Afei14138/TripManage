@@ -1,0 +1,15 @@
+/* CSS Document */
+
+body { font-size:12px; background:#fff; color:#333; line-height:25px; margin:0; padding:0px 0; font-family:宋体; }
+input{margin:0px; padding:0px; }
+.wrap {  margin:0px auto; }
+#navbar { background:#dae8f5; border-top:4px solid #5184af; line-height:30px; height:30px; }
+#navbar .profile { float:left; padding:0px 10px; color:#F00; }
+#navbar .search { text-align:right; }
+#navbar .search input { margin:3px auto; vertical-align:middle; }
+#navbar .search .input-button { background:url(../images/manage/button_search.gif); width:40px; height:22px; margin:0px 4px; border:0px;}
+#navbar { background:#dae8f5; border-top:4px solid #5184af; line-height:30px; height:30px; }
+#navbar .profile { float:left; padding:0px 10px; }
+#navbar .profile .addnew a { margin:0px 40px; background:url(../images/manage/addnew.gif) left center no-repeat; padding-left:18px; }
+#navbar .profile .modify a { margin:0px 40px; background:url(../images/manage/edit.gif) left center no-repeat; padding-left:18px; }
+#navbar .profile .return a { margin:0px 40px; background:url(../images/manage/new.gif) left center no-repeat; padding-left:18px; }

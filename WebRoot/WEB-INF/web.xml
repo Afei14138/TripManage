@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	
+	<context-param> 
+    <description>文件上传地址</description> 
+    <param-name>file-upload</param-name> 
+    <param-value>
+         D:\data\
+     </param-value> 
+</context-param>
+	
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TravelAppServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.emp.TravelAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApproveTravelServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.depmgr.ApproveTravelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowAppServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.emp.BorrowAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TravelSumServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.emp.TravelSumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExpenseAppServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.emp.ExpenseAppServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApproveBorrowServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.depmgr.ApproveBorrowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApproveSumServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.depmgr.ApproveSumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApproveExpenseServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.depmgr.ApproveExpenseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MApproveBorrowServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.mgr.MApproveBorrowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MApproveExpenseServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.mgr.MApproveExpenseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CostControlServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.cost_ctrl.CostControlServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllBorrowServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.fin.AllBorrowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllExpenseServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.fin.AllExpenseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminstratorServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.admin.AdminstratorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdministratorServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.admin.AdministratorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.admin.NewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.LogServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChartServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.chart.ChartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApproveServlet</servlet-name>
+    <servlet-class>our.dxz.trip.servlet.ApproveServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>TravelAppServlet</servlet-name>
+    <url-pattern>/TravelAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApproveTravelServlet</servlet-name>
+    <url-pattern>/ApproveTravelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowAppServlet</servlet-name>
+    <url-pattern>/BorrowAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TravelSumServlet</servlet-name>
+    <url-pattern>/TravelSumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExpenseAppServlet</servlet-name>
+    <url-pattern>/ExpenseAppServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApproveBorrowServlet</servlet-name>
+    <url-pattern>/ApproveBorrowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApproveSumServlet</servlet-name>
+    <url-pattern>/ApproveSumServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApproveExpenseServlet</servlet-name>
+    <url-pattern>/ApproveExpenseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MApproveBorrowServlet</servlet-name>
+    <url-pattern>/MApproveBorrowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MApproveExpenseServlet</servlet-name>
+    <url-pattern>/MApproveExpenseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CostControlServlet</servlet-name>
+    <url-pattern>/CostControlServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllBorrowServlet</servlet-name>
+    <url-pattern>/AllBorrowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllExpenseServlet</servlet-name>
+    <url-pattern>/AllExpenseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminstratorServlet</servlet-name>
+    <url-pattern>/AdminstratorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdministratorServlet</servlet-name>
+    <url-pattern>/AdministratorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewsServlet</servlet-name>
+    <url-pattern>/NewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogServlet</servlet-name>
+    <url-pattern>/LogServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChartServlet</servlet-name>
+    <url-pattern>/ChartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApproveServlet</servlet-name>
+    <url-pattern>/ApproveServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
